@@ -48,7 +48,7 @@ def print_help():
     print("Print      Print the tree using In-order, Pre-order, Post-order")
     print("FindMinMax Search for min and max values")
     print("Remove     Remove elements from the tree")
-    print("Delete     Delete the entire tree")
+    print("RemoveAll     Delete the entire tree")
     print("Export     Export the tree to tikzpicture (LaTeX)")
     print("Rebalance  Rebalance the tree using DSW algorithm")
     print("Exit       Exits the program (same as Ctrl+D)")
