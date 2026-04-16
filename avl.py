@@ -87,7 +87,7 @@ class AVL:
         self.root = None
 
     def _delete_post_order_recursive(self, node):
-        # Rekurencyjne usuwanie węzłów z logowaniem operacji po angielsku
+        # Rekurencyjne usuwanie węzłów
         if node:
             self._delete_post_order_recursive(node.left)
             self._delete_post_order_recursive(node.right)
